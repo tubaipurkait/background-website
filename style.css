@@ -1,13 +1,28 @@
-.navbar{
-    position: absolute;
-    background: transparent !important;
-    width: 100%;
-    z-index: 10;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
+.slider{
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.search-bar{
-position: absolute;
-z-index: 1;
-top: 100px;
-width: 100%;
+
+.slider-box{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container{
+    background-image: url(assets/img/slider-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+
 }
