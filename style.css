@@ -20,9 +20,33 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.container{
+.top-hero{
     background-image: url(assets/img/slider-bg.jpeg);
     background-position: center;
     background-size: cover;
+
+}
+
+#slider-title{
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+
+
+.background-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px    ;
+}
+
+#column-1{
+    background-image: url(/assets/img/Dog1.webp);
+    background-size: contain;
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
 
 }
